@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
 
+/* Variables */
+
 :root {
 
     /* Colors */
@@ -11,27 +13,39 @@
 
 }
 
-a, a:visited, a:hover {
+/* Resets */
+
+a,
+a:visited,
+a:hover {
     color: unset;
     text-decoration: none;
 }
 
-*, *::after, *::before {
+
+*,
+*::after,
+*::before {
     outline: 0px;
     border: 0px;
     padding: 0px;
     margin: 0px;
+    gap: 0px;
     /* font: inherit; */
     box-sizing: border-box;
     font-family: 'League Spartan';
     color: var(--dark-gray-clr);
 }
 
-.container {
-    margin: auto;
-    width: 1440px;
-    background-color: var(--white-clr);
+svg , object{
+    pointer-events: none !important;
 }
+
+path , object{
+    pointer-events: auto !important;
+}
+
+/* Defaults */
 
 #root {
     display: flex;
@@ -39,103 +53,147 @@ a, a:visited, a:hover {
     justify-content: space-around;
     width: 100%;
     height: 100vh;
+    /* height: */
     background-color: var(--very-dark-gray-clr);
 }
 
-.top-side, .bottom-side {
-    display: flex;
-}
-
-.hero-image-container {
-    position: relative;
-}
-
-.controls {
-    position: absolute;
-    bottom: 0;
-    right: -160px;
-}
+/* Buttons */
 
 .controls button {
-    cursor: pointer;
+    background-color: var(--black-clr);
     width: 80px;
     height: 80px;
-    background-color: var(--black-clr);
-    z-index: 30;
 }
 
-.hero-text, .about-text {
-    display: flex;
-    flex-direction: column;
+.controls button:hover {
+    background-color: var(--dark-gray-clr);
 }
 
+/* Fonts */
 
-.hero-text {
-    padding: 120px 80px;
-    gap: 30px;
+p {
+    line-height: 18px;
 }
 
-.hero-text .spaced {
-    letter-spacing: 8px;
+nav a:hover {
+    border-bottom: 2px solid var(--white-clr);
+}
+
+.black {
     color: var(--black-clr);
-    transition: letter-spacing .2s;
+}
+
+.gray {
+    color: var(--dark-gray-clr);
+}
+
+.white {
+    color: var(--white-clr);
+}
+
+.hoverable, button {
     cursor: pointer;
 }
 
-.hero-text .spaced:hover {
+.spaced {
+    letter-spacing: 9px;
+    transition: letter-spacing .2s;
+}
+
+.spaced:hover {
     letter-spacing: 12px;
     color: var(--dark-gray-clr);
 }
 
-.shop-now-button {
-    display: flex;
-    gap: 1rem;
-}
-
-.shop-now-button object {
-    margin: auto 0;
-}
-
-.about-text {
-    padding: 68px 48px;
-    gap: 15px;
-}
-
 .hero-text h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
 }
 
 .about-text h1 {
-    font-size: 1.1rem;
-    text-transform:uppercase;
-    letter-spacing: 4px;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
-.bottom-side {
-    height: 266px;
+/* Layout / Containers */
+
+.mobile-img {
+    display: none;
+}
+
+.hamburger-container {
+    display: none;
+}
+
+.shop-now-button {
+    display: flex;
+    gap: 10px;
+}
+
+.show-now-button object {
+    margin: auto 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+    background-color: var(--white-clr);
+}
+
+.hero-text {
+    /* padding: 120px 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    gap: 30px;
 }
 
 .top-side {
-    height: 534px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
-.author {
+.bottom-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    gap: 10px;
+}
+
+.img-container {
+    position: relative;
     width: 100%;
-    text-align: center;
-    margin-bottom: 25px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
-button:hover {
-    background-color: var(--dark-gray-clr);
+.hero-image-container {
+    display: flex;
 }
 
-h1 {
-    color: var(--black-clr);
+.controls {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
 }
 
-p {
-    line-height: 22px;
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header */
 
 header {
     position: absolute;
@@ -155,16 +213,105 @@ nav a {
     /* transition: border .2s; */
 }
 
-nav a:hover {
-    border-bottom: 1px solid var(--white-clr);
-    border-bottom-style:double;
-}
+/* Media queries */
 
 @media only screen AND (max-width: 1080px) {
+
+    * {
+        /* background-color: red; */
+    }
+
+    .top-side {
+        grid-template-columns: 2.2fr 1fr;
+    }
+
+    .bottom-side {
+        grid-template-columns: 1fr 1.2fr 1fr;
+    }
+
     .about-text {
-        padding: 30px;
+        padding: 20px;
     }
     .hero-text {
-        padding: 30px;
+        padding: 20px;
+    }
+}
+
+@media only screen AND (max-width: 440px) {
+
+    #root {
+        height: unset;
+    }
+
+    .hero-text, .about-text {
+        padding: 3rem;
+    }
+
+    .top-side, .bottom-side {
+        grid-template-columns: 1fr !important;
+    }
+
+    .img-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: inline;
+    }
+
+    header object, header path, header svg {
+        z-index: 99;
+    }
+
+    nav {
+        top: -400%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+        gap: 2rem;
+        background-color: var(--black-clr);
+        text-align: center;
+        z-index: 0;
+        transition: top .2s;
+    }
+
+    nav.visible {
+        top: 80px;
+    }
+
+    nav a {
+        text-transform: uppercase;
+    }
+
+    header .logo-container {
+        position: absolute;
+        margin-top: 4px;
+    }
+
+    header .hamburger-container {
+        margin-right: auto;
+    }
+
+    header {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hamburger-container {
+        display: inline;
     }
 }

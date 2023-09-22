@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './style2.css';
+import './style.css';
 
 import DesktopHero1 from './assets/imgs/desktop-image-hero-1.jpg';
 import DesktopHero2 from './assets/imgs/desktop-image-hero-2.jpg';
