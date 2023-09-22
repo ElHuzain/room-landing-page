@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/room-landing-page/static/css/main.7f3048bf.css",
+    "main.css": "/room-landing-page/static/css/main.8b1ecc00.css",
     "main.js": "/room-landing-page/static/js/main.add10823.js",
     "static/media/desktop-image-hero-1.jpg": "/room-landing-page/static/media/desktop-image-hero-1.91901d0d47ea68db9434.jpg",
     "static/media/desktop-image-hero-3.jpg": "/room-landing-page/static/media/desktop-image-hero-3.05fd679aa0d31e01c176.jpg",
@@ -14,11 +14,11 @@
     "static/media/icon-arrow.svg": "/room-landing-page/static/media/icon-arrow.84087786c5e572d7f27f2672642badd5.svg",
     "static/media/icon-angle-left.svg": "/room-landing-page/static/media/icon-angle-left.d53877dfd9c6774a68749ad0239b4ce1.svg",
     "static/media/icon-angle-right.svg": "/room-landing-page/static/media/icon-angle-right.0ed3f81fbd14b3bd61d875b7df144e4c.svg",
-    "main.7f3048bf.css.map": "/room-landing-page/static/css/main.7f3048bf.css.map",
+    "main.8b1ecc00.css.map": "/room-landing-page/static/css/main.8b1ecc00.css.map",
     "main.add10823.js.map": "/room-landing-page/static/js/main.add10823.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f3048bf.css",
+    "static/css/main.8b1ecc00.css",
     "static/js/main.add10823.js"
   ]
 }
