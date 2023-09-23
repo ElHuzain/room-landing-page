@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/room-landing-page/static/css/main.8b1ecc00.css",
-    "main.js": "/room-landing-page/static/js/main.add10823.js",
-    "static/media/desktop-image-hero-1.jpg": "/room-landing-page/static/media/desktop-image-hero-1.91901d0d47ea68db9434.jpg",
-    "static/media/desktop-image-hero-3.jpg": "/room-landing-page/static/media/desktop-image-hero-3.05fd679aa0d31e01c176.jpg",
-    "static/media/desktop-image-hero-2.jpg": "/room-landing-page/static/media/desktop-image-hero-2.9d35405672f4fca67945.jpg",
-    "static/media/mobile-image-hero-1.jpg": "/room-landing-page/static/media/mobile-image-hero-1.5de3d1472db703fb2f8a.jpg",
-    "static/media/mobile-image-hero-2.jpg": "/room-landing-page/static/media/mobile-image-hero-2.51db290a00388a5a0bea.jpg",
-    "static/media/image-about-dark.jpg": "/room-landing-page/static/media/image-about-dark.329bbc446c27ddf69d0f.jpg",
-    "static/media/mobile-image-hero-3.jpg": "/room-landing-page/static/media/mobile-image-hero-3.601d0f37f7ff5e62008c.jpg",
-    "static/media/logo.svg": "/room-landing-page/static/media/logo.8fad054264a8e979d2bbe8ac73867178.svg",
-    "index.html": "/room-landing-page/index.html",
-    "static/media/icon-arrow.svg": "/room-landing-page/static/media/icon-arrow.84087786c5e572d7f27f2672642badd5.svg",
-    "static/media/icon-angle-left.svg": "/room-landing-page/static/media/icon-angle-left.d53877dfd9c6774a68749ad0239b4ce1.svg",
-    "static/media/icon-angle-right.svg": "/room-landing-page/static/media/icon-angle-right.0ed3f81fbd14b3bd61d875b7df144e4c.svg",
-    "main.8b1ecc00.css.map": "/room-landing-page/static/css/main.8b1ecc00.css.map",
-    "main.add10823.js.map": "/room-landing-page/static/js/main.add10823.js.map"
+    "main.css": "/manage-landing-page/static/css/main.937d30ca.css",
+    "main.js": "/manage-landing-page/static/js/main.2268a5c2.js",
+    "static/media/avatar-ali.png": "/manage-landing-page/static/media/avatar-ali.88f9155cb730934f4d7c.png",
+    "static/media/avatar-shanai.png": "/manage-landing-page/static/media/avatar-shanai.4bbe2f95e8975736fbd8.png",
+    "static/media/illustration-intro.svg": "/manage-landing-page/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
+    "static/media/avatar-anisha.png": "/manage-landing-page/static/media/avatar-anisha.484e15bc92ce6a0106ab.png",
+    "static/media/avatar-richard.png": "/manage-landing-page/static/media/avatar-richard.ace8e0892f67a50c1e9e.png",
+    "static/media/logo.svg": "/manage-landing-page/static/media/logo.66a576108be35c08eb2ca3e40c17d151.svg",
+    "index.html": "/manage-landing-page/index.html",
+    "static/media/icon-close.svg": "/manage-landing-page/static/media/icon-close.d5ba0dc53461cfc81979638f3b9fcf2e.svg",
+    "static/media/bg-tablet-pattern.svg": "/manage-landing-page/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e9783736e996a.svg",
+    "static/media/icon-hamburger.svg": "/manage-landing-page/static/media/icon-hamburger.8dcf47cc6f3180ad040f1173f3592504.svg",
+    "main.937d30ca.css.map": "/manage-landing-page/static/css/main.937d30ca.css.map",
+    "main.2268a5c2.js.map": "/manage-landing-page/static/js/main.2268a5c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1ecc00.css",
-    "static/js/main.add10823.js"
+    "static/css/main.937d30ca.css",
+    "static/js/main.2268a5c2.js"
   ]
 }
